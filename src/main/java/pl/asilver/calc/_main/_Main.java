@@ -6,11 +6,11 @@ import static pl.asilver.calc.service.ResultWriteService.writeResult;
 
 public class _Main {
     public static void main(String[] args) {
-        int sumOperation = Calculator.findSum(211, 35);
-        int difOperation = Calculator.findDif(123, 321);
-        int multiplOperation = Calculator.findMultipl(40, 222);
-        writeResult(211, 35, sumOperation, "sum");
-        writeResult(123, 321, difOperation, "difference");
-        writeResult(40, 222, multiplOperation, "multiplication");
+        int sumResult = Calculator.findSum(211, 35);
+        int difResult = Calculator.findDif(123, 321);
+        int multiplResult = Calculator.findMultipl(40, 222);
+        writeResult(211, 35, sumResult, "sum");
+        writeResult(123, 321, difResult, "difference");
+        writeResult(40, 222, multiplResult, "multiplication");
     }
 }
